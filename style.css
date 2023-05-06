@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.studentForm {
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 40px auto;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 20px
+}
+
+.btn {
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: crimson;
+    border: none;
+}
+
+.students {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+
+.students h3, p {
+    text-transform: uppercase;
+}
